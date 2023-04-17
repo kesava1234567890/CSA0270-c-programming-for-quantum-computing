@@ -6,7 +6,7 @@ struct person {
 	
 };
 int main(){
-	struct person person1={"johny sins",30,6.0};
+	struct person person1={"john",30,6.0};
 	printf("name: %s\n", person1.name);
 	printf("age: %d\n",person1.age);
 	printf("height: %.2f\n",person1.height);
